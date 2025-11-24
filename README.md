@@ -17,13 +17,13 @@ This repository contains the source implementation. To add to a project, copy th
 Install via npm:
 
 ```bash
-npm install github.com/CarlosSolizSiles/ghost-console
+npm install github:CarlosSolizSiles/ghost-console
 ```
 
 Example (local import):
 
 ```ts
-import { GhostConsole } from "./src/ghost-console";
+import { GhostConsole } from "ghost-console";
 new GhostConsole("https://your-server.example.com");
 ```
 
@@ -34,7 +34,7 @@ new GhostConsole("https://your-server.example.com");
 1. Initialize GhostConsole early in your app:
 
 ```ts
-import { GhostConsole } from "./src/ghost-console";
+import { GhostConsole } from "ghost-console";
 
 const gc = new GhostConsole("https://your-server.example.com");
 console.log("Hello world");
